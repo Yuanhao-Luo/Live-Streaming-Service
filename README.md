@@ -1,5 +1,4 @@
 
-Type: 
 python server.py
 
 

@@ -223,7 +223,6 @@ def index():
     
 @app.route('/video_feed')
 def video_feed():
-    print("video feed")
     return Response(gen_frames(), mimetype='multipart/x-mixed-replace; boundary=frame')
 
 @app.route('/requests',methods=['POST','GET'])
